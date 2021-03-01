@@ -1,0 +1,197 @@
+
+.main {
+    /* width: 100%; */
+    margin: 5% 10%;
+}
+#title {
+    font-size: 250%;
+    text-align: center;
+    font-family: 'PT Serif', serif;
+}
+.list {
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-around;
+}
+li.items {
+    font-size: 22px;
+    font-family: Helvetica, '游ゴシック', 'Yu Gothic', YuGothic, HiraKakuProN-W3, 'メイリオ', Meiryo, sans-serif;
+    color: #333;
+}
+li.items a{
+  color: black;
+}
+.about-me {
+    text-align: center;
+    font-weight: 100;
+    font-size: 40px;
+    color: #493d3da6;
+    font-family: 'Cinzel', serif;
+    margin: 120px 0 45px 0;
+}
+.image-area {
+    width: 300px;
+    height: 300px;
+    margin: 0 auto 0 auto;
+}
+.image {
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+}
+.introduction-title {
+    text-align: center;
+    font-weight: 100;
+    font-size: 32px;
+    color: #493d3da6;
+    font-family: 'Cinzel', serif;
+    margin: 120px 0 45px 0;
+}
+.introduction-text {
+    font-family: Helvetica, '游ゴシック', 'Yu Gothic', YuGothic, HiraKakuProN-W3, 'メイリオ', Meiryo, sans-serif;
+    color: #333;
+    text-align: center;
+    line-height: 1.9;
+}
+.educations-title {
+    text-align: center;
+    font-weight: 100;
+    font-size: 32px;
+    color: #493d3da6;
+    font-family: 'Cinzel', serif;
+    margin: 120px 0 45px 0;
+}
+.educations-text {
+    font-family: Helvetica, '游ゴシック', 'Yu Gothic', YuGothic, HiraKakuProN-W3, 'メイリオ', Meiryo, sans-serif;
+    color: #333;
+    line-height: 1.9;
+    text-align: center;
+    margin: 10px 0;
+}
+.skills-title {
+    text-align: center;
+    font-weight: 100;
+    font-size: 40px;
+    color: #493d3da6;
+    font-family: 'Cinzel', serif;
+    margin: 120px 0 45px 0;
+}
+.skills-area {
+    display: flex;
+    /* float: none !important; */
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.skills-items {
+    /* width: 25%; */
+    text-align: center;
+    /* float: none !important; */
+    margin: 20px auto;
+}
+.img {
+    width: 150px;
+    height: 150px;
+}
+.image-text {
+    font-family: Helvetica, '游ゴシック', 'Yu Gothic', YuGothic, HiraKakuProN-W3, 'メイリオ', Meiryo, sans-serif;
+}
+.level {
+    font-family: Helvetica, '游ゴシック', 'Yu Gothic', YuGothic, HiraKakuProN-W3, 'メイリオ', Meiryo, sans-serif;
+}
+.star {
+    font-family: Helvetica, '游ゴシック', 'Yu Gothic', YuGothic, HiraKakuProN-W3, 'メイリオ', Meiryo, sans-serif;
+}
+.service-title {
+    text-align: center;
+    font-weight: 100;
+    font-size: 40px;
+    color: #493d3da6;
+    font-family: 'Cinzel', serif;
+    margin: 120px 0 45px 0;
+}
+.service-image {
+    display: flex;
+    justify-content: center;
+}
+.coding-image {
+    /* width: 100%; */
+    /* height: 100%; */
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.lightup {
+    /* font-family: Helvetica, '游ゴシック', 'Yu Gothic', YuGothic, HiraKakuProN-W3, 'メイリオ', Meiryo, sans-serif; */
+    color: #333;
+    line-height: 1.9;
+    text-align: center;
+    margin: 10px 0;
+    font-family: serif;
+    font-size: 20px;
+}
+.service-text {
+    font-family: Helvetica, '游ゴシック', 'Yu Gothic', YuGothic, HiraKakuProN-W3, 'メイリオ', Meiryo, sans-serif;
+    color: #333;
+    line-height: 1.9;
+    text-align: center;
+    margin: 0;
+}
+.work-title {
+    text-align: center;
+    font-weight: 100;
+    font-size: 40px;
+    color: #493d3da6;
+    font-family: 'Cinzel', serif;
+    margin: 120px 0 45px 0;
+}
+.work-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.work-items {
+    margin: 0 10px 30px 10px;
+}
+.work-image {
+    width: 350px;
+    height: 200px;
+    object-fit: cover;
+    border: 0.5px solid #0000005e;
+}
+.work-explane {
+    width: 350px;
+}
+.work-explane-item {
+    font-family: Helvetica, '游ゴシック', 'Yu Gothic', YuGothic, HiraKakuProN-W3, 'メイリオ', Meiryo, sans-serif;
+    color: #333;
+    line-height: 1.9;
+    /* text-align: center; */
+    margin: 0;
+}
+.contact-title {
+    text-align: center;
+    font-weight: 100;
+    font-size: 40px;
+    color: #493d3da6;
+    font-family: 'Cinzel', serif;
+    margin: 120px 0 45px 0;
+}
+.contact-content {
+    font-family: Helvetica, '游ゴシック', 'Yu Gothic', YuGothic, HiraKakuProN-W3, 'メイリオ', Meiryo, sans-serif;
+    color: #333;
+    line-height: 1.9;
+    text-align: center;
+    margin: 0;
+}
+.mail {
+    text-align: center;
+    margin-top: 10px;
+}
+.mailicon {
+    color: #333;
+}
+.about, .skills, .service, .work, .contact{
+    display: none;
+}
