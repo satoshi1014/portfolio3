@@ -1,33 +1,48 @@
 
 .main {
     /* width: 100%; */
-    margin: 5% 10%;
+    /*margin: 5% 10%;*/
 }
 #title {
-    font-size: 250%;
+    width: 100%;
+    font-size: 6vw;
     text-align: center;
     font-family: 'PT Serif', serif;
+    color: white;
 }
 .list {
-    display: flex;
     margin-top: 30px;
-    justify-content: space-around;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
 }
 li.items {
-    font-size: 22px;
+    font-size: 70px;
     font-family: Helvetica, '游ゴシック', 'Yu Gothic', YuGothic, HiraKakuProN-W3, 'メイリオ', Meiryo, sans-serif;
     color: #333;
 }
 li.items a{
-  color: black;
+  color: white;
+  font-family: 'PT Serif', serif;
+    margin-bottom: 15%;
+    margin-top: 15%;
+}
+.about{
+    background-image: url(univerce.jpg);
+    margin: 0 auto;
+    background-size: cover;
+    padding: 200px 0 200px 0;
+    color: black;
 }
 .about-me {
     text-align: center;
     font-weight: 100;
     font-size: 40px;
-    color: #493d3da6;
+    color: white;
     font-family: 'Cinzel', serif;
-    margin: 120px 0 45px 0;
+    margin: 0px 0 45px 0;
 }
 .image-area {
     width: 300px;
@@ -43,13 +58,13 @@ li.items a{
     text-align: center;
     font-weight: 100;
     font-size: 32px;
-    color: #493d3da6;
+    color: white;
     font-family: 'Cinzel', serif;
     margin: 120px 0 45px 0;
 }
 .introduction-text {
     font-family: Helvetica, '游ゴシック', 'Yu Gothic', YuGothic, HiraKakuProN-W3, 'メイリオ', Meiryo, sans-serif;
-    color: #333;
+    color: white;
     text-align: center;
     line-height: 1.9;
 }
@@ -57,24 +72,34 @@ li.items a{
     text-align: center;
     font-weight: 100;
     font-size: 32px;
-    color: #493d3da6;
+    color: white;
     font-family: 'Cinzel', serif;
     margin: 120px 0 45px 0;
 }
 .educations-text {
     font-family: Helvetica, '游ゴシック', 'Yu Gothic', YuGothic, HiraKakuProN-W3, 'メイリオ', Meiryo, sans-serif;
-    color: #333;
+    color: white;
     line-height: 1.9;
     text-align: center;
     margin: 10px 0;
+}
+.skills{
+    background-image: url(task.jpg);
+    margin: 0 auto;
+    background-size: cover;
+    padding: 200px 0 200px 0;
+    color: black;
+}
+.skills-items .image-text,.skills-items .level{
+    color: white;
 }
 .skills-title {
     text-align: center;
     font-weight: 100;
     font-size: 40px;
-    color: #493d3da6;
+    color: white;
     font-family: 'Cinzel', serif;
-    margin: 120px 0 45px 0;
+    margin: 0px 0 45px 0;
 }
 .skills-area {
     display: flex;
@@ -102,13 +127,20 @@ li.items a{
 .star {
     font-family: Helvetica, '游ゴシック', 'Yu Gothic', YuGothic, HiraKakuProN-W3, 'メイリオ', Meiryo, sans-serif;
 }
+.service{
+    background-image: url(art.png);
+    margin: 0 auto;
+    background-size: cover;
+    padding: 200px 0 200px 0;
+    color: black;
+}
 .service-title {
     text-align: center;
     font-weight: 100;
     font-size: 40px;
-    color: #493d3da6;
+    color: white;
     font-family: 'Cinzel', serif;
-    margin: 120px 0 45px 0;
+    margin: 0px 0 45px 0;
 }
 .service-image {
     display: flex;
@@ -124,7 +156,7 @@ li.items a{
 }
 .lightup {
     /* font-family: Helvetica, '游ゴシック', 'Yu Gothic', YuGothic, HiraKakuProN-W3, 'メイリオ', Meiryo, sans-serif; */
-    color: #333;
+    color: white;
     line-height: 1.9;
     text-align: center;
     margin: 10px 0;
@@ -133,18 +165,25 @@ li.items a{
 }
 .service-text {
     font-family: Helvetica, '游ゴシック', 'Yu Gothic', YuGothic, HiraKakuProN-W3, 'メイリオ', Meiryo, sans-serif;
-    color: #333;
+    color: white;
     line-height: 1.9;
     text-align: center;
     margin: 0;
+}
+.work{
+    background-image: url(orora.jpg);
+    margin: 0 auto;
+    background-size: cover;
+    padding: 200px 0 200px 0;
+    color: black;
 }
 .work-title {
     text-align: center;
     font-weight: 100;
     font-size: 40px;
-    color: #493d3da6;
+    color: white;
     font-family: 'Cinzel', serif;
-    margin: 120px 0 45px 0;
+    margin: 0px 0 45px 0;
 }
 .work-list {
     display: flex;
@@ -165,22 +204,29 @@ li.items a{
 }
 .work-explane-item {
     font-family: Helvetica, '游ゴシック', 'Yu Gothic', YuGothic, HiraKakuProN-W3, 'メイリオ', Meiryo, sans-serif;
-    color: #333;
+    color: white;
     line-height: 1.9;
     /* text-align: center; */
     margin: 0;
+}
+.contact{
+    background-image: url(background-image.jpg);
+    margin: 0 auto;
+    background-size: cover;
+    padding: 200px 0 200px 0;
+    color: black;
 }
 .contact-title {
     text-align: center;
     font-weight: 100;
     font-size: 40px;
-    color: #493d3da6;
+    color: white;
     font-family: 'Cinzel', serif;
-    margin: 120px 0 45px 0;
+    margin: 0px 0 45px 0;
 }
 .contact-content {
     font-family: Helvetica, '游ゴシック', 'Yu Gothic', YuGothic, HiraKakuProN-W3, 'メイリオ', Meiryo, sans-serif;
-    color: #333;
+    color: white;
     line-height: 1.9;
     text-align: center;
     margin: 0;
@@ -190,8 +236,97 @@ li.items a{
     margin-top: 10px;
 }
 .mailicon {
-    color: #333;
+    color: white;
 }
+/*.about, .skills, .service, .work, .contact{*/
+/*    display: none;*/
+/*}*/
 .about, .skills, .service, .work, .contact{
-    display: none;
+  opacity: 0;
+  transform : translate(0, 50px);
+  transition : all 1500ms;
+}
+
+.scrollin{
+  opacity: 1;
+  transform: translate(0, 0);
+}
+div#main-main-header {
+    margin: 0 auto;
+    background-image: url(background-image.jpg);
+    background-size: cover;
+    padding: 300px 0 300px 0;
+    color: white;
+    position: sticky;
+    top: 0;
+}
+p#sub-title {
+    /* font-size: 200%; */
+    font-size: 4vw;
+    text-align: center;
+    font-family: 'PT Serif', serif;
+    margin-top: 10px;
+    color: white;
+}
+div#toggle {
+    position: fixed;
+    top: 3%;
+    right: 4%;
+    height: 38px;
+    width: 35px;
+    cursor: pointer;
+    z-index: 200;
+    transition: opacity 0.25s ease;
+}
+.top, .middle, .bottom {
+    background: white;
+    border: none;
+    height: 5px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 0.35s ease;
+    cursor: pointer;
+}
+span.middle {
+    top: 11px;
+}
+span.bottom {
+    top: 22px;
+}
+#overlay {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(50, 47, 45, 0.9);
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity .2s ease-out;
+  pointer-events: none;  /* 透明状態でもクリックを拾ってしまうので */
+}
+body.is-menu-open #overlay {
+  opacity: 1;
+  pointer-events: auto;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body.is-menu-open .main {
+  pointer-events: none;
+  transition: all .2s ease-out;
+  -webkit-filter: blur(8px);
+     -moz-filter: blur(8px);
+      -ms-filter: blur(8px);
+          filter: blur(8px);
+}.menu-close-btn {
+    /* position: relative; */
+    float: left;
+}
+span.clone-btn {
+    color: white;
+    font-size: 40px;
+    text-align: right;
+    cursor: pointer;
 }

@@ -12,14 +12,16 @@
 
   <body>
 <div class="main">
+  <div class="buttun_container" id="toggle">
+    <span class="top"></span>
+    <span class="middle"></span>
+    <span class="bottom"></span>
+  </div>
   <div class="main-header">
-    <h1 id="title">Satoshi Fukuyama's Portfolio</h1>
-    <ul class="list">
-      <li class="items"><a href="#about">About</a></li>
-      <li class="items"><a href="#service">Service</a></li>
-      <li class="items"><a href="#works">Works</a></li>
-      <li class="items"><a href="#contact">Contact</a></li>
-    </ul>
+    <div id="main-main-header">
+      <h1 id="title">Satoshi Fukuyama's Portfolio</h1>
+      <p id="sub-title">-Web Enginner-</p>
+    </div>
   </div>
   <div class="about">
     <h1 class="about-me" id="about">
@@ -250,6 +252,19 @@
     </p>
   </div>
 </div>
+<div class="overlay" id="overlay">
+  <div class="overlay-in">
+  <div class="menu-close-btn"><span class="clone-btn">×</span></div>
+    <nav class="overlay-menu">
+      <ul class="list">
+        <li class="items"><a href="#about" id="menu_about" class="menu-close-btn">About</a></li>
+        <li class="items"><a href="#service" id="menu_service" class="menu-close-btn">Service</a></li>
+        <li class="items"><a href="#works" id="menu_works" class="menu-close-btn">Works</a></li>
+        <li class="items"><a href="#contact" id="menu_contact" class="menu-close-btn">Contact</a></li>
+      </ul>
+    </nav>
+    </div>
+  </div>
 <script src="top.js"></script>
   </body>
 </html>  
