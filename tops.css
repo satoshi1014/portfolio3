@@ -39,7 +39,7 @@ li.items a{
 .about-me {
     text-align: center;
     font-weight: 100;
-    font-size: 40px;
+    font-size: 50px;
     color: white;
     font-family: 'Cinzel', serif;
     margin: 0px 0 45px 0;
@@ -57,7 +57,7 @@ li.items a{
 .introduction-title {
     text-align: center;
     font-weight: 100;
-    font-size: 32px;
+    font-size: 40px;
     color: white;
     font-family: 'Cinzel', serif;
     margin: 120px 0 45px 0;
@@ -67,11 +67,12 @@ li.items a{
     color: white;
     text-align: center;
     line-height: 1.9;
+    font-size: 17px;
 }
 .educations-title {
     text-align: center;
     font-weight: 100;
-    font-size: 32px;
+    font-size: 40px;
     color: white;
     font-family: 'Cinzel', serif;
     margin: 120px 0 45px 0;
@@ -81,7 +82,8 @@ li.items a{
     color: white;
     line-height: 1.9;
     text-align: center;
-    margin: 10px 0;
+    margin: 10px 20px;
+    font-size: 17px;
 }
 .skills{
     background-image: url(task.jpg);
@@ -96,7 +98,7 @@ li.items a{
 .skills-title {
     text-align: center;
     font-weight: 100;
-    font-size: 40px;
+    font-size: 50px;
     color: white;
     font-family: 'Cinzel', serif;
     margin: 0px 0 45px 0;
@@ -126,6 +128,7 @@ li.items a{
 }
 .star {
     font-family: Helvetica, '游ゴシック', 'Yu Gothic', YuGothic, HiraKakuProN-W3, 'メイリオ', Meiryo, sans-serif;
+    color: white;
 }
 .service{
     background-image: url(art.png);
@@ -137,7 +140,7 @@ li.items a{
 .service-title {
     text-align: center;
     font-weight: 100;
-    font-size: 40px;
+    font-size: 50px;
     color: white;
     font-family: 'Cinzel', serif;
     margin: 0px 0 45px 0;
@@ -169,6 +172,7 @@ li.items a{
     line-height: 1.9;
     text-align: center;
     margin: 0;
+    font-size: 17px;
 }
 .work{
     background-image: url(orora.jpg);
@@ -180,7 +184,7 @@ li.items a{
 .work-title {
     text-align: center;
     font-weight: 100;
-    font-size: 40px;
+    font-size: 50px;
     color: white;
     font-family: 'Cinzel', serif;
     margin: 0px 0 45px 0;
@@ -208,6 +212,7 @@ li.items a{
     line-height: 1.9;
     /* text-align: center; */
     margin: 0;
+    font-size: 17px;
 }
 .contact{
     background-image: url(background-image.jpg);
@@ -219,7 +224,7 @@ li.items a{
 .contact-title {
     text-align: center;
     font-weight: 100;
-    font-size: 40px;
+    font-size: 50px;
     color: white;
     font-family: 'Cinzel', serif;
     margin: 0px 0 45px 0;
@@ -230,6 +235,7 @@ li.items a{
     line-height: 1.9;
     text-align: center;
     margin: 0;
+    font-size: 17px;
 }
 .mail {
     text-align: center;
