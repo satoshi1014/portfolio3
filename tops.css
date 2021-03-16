@@ -336,3 +336,9 @@ span.clone-btn {
     text-align: right;
     cursor: pointer;
 }
+.service-place-area {
+    margin: 0 5%;
+}
+.service-field {
+    display: flex;
+}
